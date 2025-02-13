@@ -1,0 +1,53 @@
+*,
+*:before,
+*:after {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.second {
+    position: relative;
+    bottom: 20px;
+    /* right: ;
+    bottom: ;  */
+  }
+  .nav {
+    margin: 20px;
+    position: relative;
+    background-color: lightblue;
+  }
+  .header {
+    position: absolute;
+    background-color: yellow;
+    bottom: 20px;
+  }
+  .footer{
+    position: fixed;
+    width: 100px;
+    top: 20px;
+    right: 50px;
+    background-color: pink;
+  }
+  /*********** Finat **********/
+  .box{
+    float:left ;
+    width: 300px;
+    background-color: yellow;
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid red;
+  }
+  .newrow{
+    clear: left;
+  }
+  .clear{
+    clear: both;
+  }
+  .foot{
+    background-color: greenyellow;
+  }
+  .pic{
+    float: left;
+    width: 300px;
+    margin: 15px;
+  }
