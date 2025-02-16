@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .redText {
+            color: red;
+        }
+    </style>
+    <!-- JavaScript Start Here -->
+    <script>
+         document.addEventListener("DOMContentLoaded", ()=> {
+            document.querySelector("#trymeBtn").onclick = ()=>
+            document.querySelector("#detail").innerHTML= "<h2 class='redText'>Hello Event Handler</h2>";
+            document.querySelector("#tel").innerText = "098-9999999";
+            
+            {};
+            });
+       
+    </script>
+</head>
+<body>
+    <h1>Event Handle</h1>
+    <p id="detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sint vero facilis culpa harum necessitatibus odit nam at hic commodi? Accusantium facilis excepturi minus libero commodi est sunt perspiciatis officia!</p>
+
+    <p id="tel">02-12345678</p>
+ 
+    <button id="trymeBtn">Try Me</button>
+</body>
+</html>
